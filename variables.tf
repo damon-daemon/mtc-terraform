@@ -8,7 +8,6 @@ variable "int_port" {
 
 variable "ext_port" {
   type    = number
-  default = 1880
 }
 
 variable "container_count" {
