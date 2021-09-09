@@ -7,12 +7,7 @@ variable "int_port" {
 }
 
 variable "ext_port" {
-  type    = number
-}
-
-variable "container_count" {
-  type    = number
-  default = 1
+  type    = list
 }
 
 variable "host_path" {}
